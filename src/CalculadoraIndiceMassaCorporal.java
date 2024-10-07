@@ -17,33 +17,27 @@ public class CalculadoraIndiceMassaCorporal {
         if (imc < 18.5) {
             System.out.println("Abaixo do peso ideal.");
 
-        }
-        if (imc >= 18.5 && imc < 25) {
+        } else if (imc < 25) {
             System.out.println("Peso ideal.");
 
-        }
+        } else if (imc < 30) {
+            System.out.println("Acima do peso");
 
-        if (imc >= 25 && imc < 30) {
-            System.out.println("Acima do peso ideal.");
-
-        }
-        if (imc >= 30 && imc < 35) {
-            System.out.println("Obesidade grau I.");
+        }else if (imc < 35) {
+            System.out.println("Obesidade Grau I.");
 
         }
-        if (imc >= 35 && imc < 40) {
-            System.out.println("Obesidade grau II");
+            else if (imc < 40) {
+            System.out.println("Obesidade Grau II.");
 
-        }
-
-        if (imc >= 40) {
-            System.out.println("Obesidade grau III");
-
+        }else{
+                System.out.println("Obesidade Grau III.");
         }
 
 
 
-        System.out.println("Fim do programa ");
+
+                System.out.println("Fim do programa ");
 
 
     }
