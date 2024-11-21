@@ -17,6 +17,8 @@ public class DesafioCalculadora {
             sexo = 'F';
         }
 
+        //IMC
+        double imc = peso / (altura * altura);
 
         if ((sexo == 'F' && imc < 19.1) || (sexo == 'M' && imc < 20.7)) {
             System.out.println("Abaixo do peso.");
