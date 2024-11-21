@@ -22,8 +22,7 @@ public class AvaliacaoAtendimento {
                 descricaoNota = "Razoável";
                 break;
 
-
-            case 4:
+                case 4:
                 descricaoNota = "Muito bom";
                 break;
             case 5:
@@ -31,8 +30,10 @@ public class AvaliacaoAtendimento {
                 break;
             default:
                 descricaoNota = "Opção Inválida";
-                break;
+
 
         }
+
+        System.out.print(descricaoNota);
     }
 }
